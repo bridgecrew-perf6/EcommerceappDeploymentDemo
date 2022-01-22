@@ -1,4 +1,4 @@
-const sqlConnection = require("../services/sqlconnection");
+const sqlConnection = require("../services/sqlConnection");
 
 function listCategory(cb){
         var sql="select ID as categoryId,Name as name FROM Categories"; 
